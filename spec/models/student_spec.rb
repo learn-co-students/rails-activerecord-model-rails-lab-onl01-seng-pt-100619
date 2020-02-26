@@ -1,8 +1,8 @@
 require 'rails_helper'
 
-describe Students do
+describe Student do
   before(:each) do
-    @student = Students.create!(first_name: "Daenerys", last_name: "Targaryen")
+    @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
   end
 
   it 'can be created' do
